@@ -1,6 +1,4 @@
 # SSL for Image Representation
-
-## Overview
 이 repository는 가짜연구소의 OpenLab 중 하나인, ```SSL for Image Representation``` 입니다.
 
 [소개 페이지](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) <br/>
