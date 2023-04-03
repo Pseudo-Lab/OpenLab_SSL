@@ -3,7 +3,6 @@ This repository is ```SSL for Image Representation```, one of the OpenLab's Pseu
 
 [Introduce page](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) <br/>
 Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL!
-
 ## Contributor
 - _Wongi Park_ | [Github](https://github.com/kalelpark) | [LinkedIn](https://www.linkedin.com/in/wongipark/) |
 - _Jaehyeong Chun_ | [Github](https://github.com/jaehyeongchun) | [LinkedIn](https://www.linkedin.com/in/jaehyeong-chun-95971b161/) |
@@ -11,6 +10,8 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 | idx |    Date    | Presenter | Review or Resource(Youtube) | Paper / Code |
 |----:|:-----------|:----------|:-----------------|:------------ |
 | 1   | 2023.03.20| _Wongi Park_    | OT | OT |
+| 2   | 2023.03.27| _Wongi Park_    | [Youtube](https://youtu.be/7xUZA9X78x0) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [Paper](https://arxiv.org/abs/2301.03580) / [CODE](https://github.com/keyu-tian/SparK)|
+| 3   | 2023.04.03| _Jaehyeong Chun_    | [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [Paper](https://arxiv.org/abs/2105.04906) / [CODE](https://github.com/facebookresearch/vicreg)|
 
 ## Table of Contents
 - [Survey and Analysis](Survey-and-Analysis)
