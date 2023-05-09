@@ -9,6 +9,7 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - _Dongryeol Lee_ | [Github](https://github.com/ryol8888) | [LinkedIn](https://www.linkedin.com/in/dong-ryeol-lee-110302197/) |
 - _Haemun Kim_
 
+
 | idx |    Date    | Presenter | Review or Resource(Youtube) | Paper / Code |
 |----:|:-----------|:----------|:-----------------|:------------ |
 | 1   | 2023.03.20| _Wongi Park_    | OT | OT |
@@ -16,6 +17,9 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 | 3   | 2023.04.03| _Jaehyeong Chun_    | [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [VICReg (ICLR 2022)](https://arxiv.org/abs/2105.04906) / [CODE](https://github.com/facebookresearch/vicreg)|
 | 4   | 2023.04.10| _Haemun Kim_    | [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [SSOD (ArXiv 2023)](https://arxiv.org/abs/2302.07577) / [CODE](https://github.com/facebookresearch/vicreg)|
 | 5   | 2023.04.17| _Wongi Park_    | [Youtube](https://youtu.be/Ic8GYtwjSuw) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [MixMAE (CVPR 2023)](https://arxiv.org/abs/2302.07577)|
+| 6   | 2023.04.24| _Jaehyeong Chun_    | [Youtube](https://youtu.be/cDqLLhwzbzI) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [DINO (ICCV 2021)](https://arxiv.org/abs/2104.14294) / [CODE](https://github.com/facebookresearch/dino)|
+| 7   | 2023.05.01| _Haemun Kim_    | [Youtube](https://youtu.be/7a6ZFyQhuZs) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [UPL (CVPR 2022)](https://arxiv.org/abs/2203.03884) / [CODE](https://haochen-wang409.github.io/U2PL/)|
+| 8   | 2023.05.08| _Dongryeol Lee_    | [Youtube](https://youtu.be/h8ApVVcLJW8) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [RC-MAE (ICLR 2023)](https://arxiv.org/abs/2210.02077) / [CODE](https://github.com/youngwanLEE/rc-mae)|
 
 ## Table of Contents
 - [Survey and Analysis](Survey-and-Analysis)
@@ -52,9 +56,11 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ BYOL ]** Bootstrap Your Own Latent A New Approach to Self-Supervised Learning **(NIPS 2020)** [[Paper](https://arxiv.org/abs/2006.07733)] [[CODE](https://github.com/deepmind/deepmind-research/tree/master/byol)]
 - **[ RoCo ]** Robust Contrastive Learning Using Negative Samples with Diminished Semantics **(NIPS 2021)** [[Paper](https://arxiv.org/abs/2110.14189)] [[CODE](https://github.com/SongweiGe/Contrastive-Learning-with-Non-Semantic-Negatives)]
 - **[ ImCo ]** Improving Contrastive Learning by Visualizing Feature Transformation **(ICCV 2021)** [[Paper](arxiv.org/abs/2108.02982)] [[CODE](https://github.com/DTennant/CL-Visualizing-Feature-Transformation)]
+- **[ DINO ]** Emerging Properties in Self-Supervised Vision Transformers **(ICCV 2021)** [[Paper](https://arxiv.org/abs/2104.14294)] [[CODE](https://github.com/facebookresearch/dino)]
 - **[ Barlow Twins ]** Barlow Twins: Self-Supervised Learning via Redundancy Reduction **(ICML 2021)** [[Paper](https://arxiv.org/abs/2103.03230)] [[CODE](https://github.com/facebookresearch/barlowtwins)]
 - **[ VICReg ]** VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning **(ICLR 2022)** [[Paper](https://arxiv.org/abs/2105.04906)] [[CODE](https://github.com/facebookresearch/vicreg)]
 - **[ TriBYOL ]** TriBYOL: Triplet BYOL for Self-Supervised Representation Learning **(ICASSP 2022)** [[Paper](https://arxiv.org/abs/2206.03012)]
+- **[ DINOv2 ]** DINOv2: Learning Robust Visual Features without Supervision **(ArXiv 2023)** [[Paper](https://arxiv.org/abs/2304.07193)] [[CODE](https://github.com/facebookresearch/dinov2)]
 
 
 ### Masked Auto Encoder
@@ -71,6 +77,8 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ MixAE ]** Mixed Autoencoder for Self-supervised Visual Representation Learning **(CVPR 2023)** [[Paper](https://arxiv.org/abs/2303.17152)]
 - **[ MixMIM ]** MixMAE: Mixed and Masked Autoencoder for Efficient Pretraining of Hierarchical Vision Transformers **(CVPR 2023)** [[Paper](https://arxiv.org/abs/2205.13137)] [[CODE](https://github.com/Sense-X/MixMIM)]
 - **[ DropMAE ]** DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks **(CVPR 2023)** [[Paper](https://arxiv.org/abs/2304.00571)] [[CODE](https://github.com/jimmy-dq/DropMAE)]
+- **[ iTPN ]** Integrally Pre-Trained Transformer Pyramid Networks. **(CVPR 2023)** [[Paper](https://arxiv.org/pdf/2211.12735.pdf)] [[CODE](https://github.com/sunsmarterjie/iTPN)]
+- **[ ConMIM ]** Masked Image Modeling with Denoising Contrast. **(ICLR 2023)** [[Paper](https://arxiv.org/abs/2205.09616)] [[CODE](https://github.com/TencentARC/ConMIM)]
 
 
 ### Image Transformation
