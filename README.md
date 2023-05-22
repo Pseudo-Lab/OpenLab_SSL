@@ -20,6 +20,7 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 | 6   | 2023.04.24| _Jaehyeong Chun_    | [Youtube](https://youtu.be/cDqLLhwzbzI) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [DINO (ICCV 2021)](https://arxiv.org/abs/2104.14294) / [CODE](https://github.com/facebookresearch/dino)|
 | 7   | 2023.05.01| _Haemun Kim_    | [Youtube](https://youtu.be/7a6ZFyQhuZs) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [UPL (CVPR 2022)](https://arxiv.org/abs/2203.03884) / [CODE](https://haochen-wang409.github.io/U2PL/)|
 | 8   | 2023.05.08| _Dongryeol Lee_    | [Youtube](https://youtu.be/h8ApVVcLJW8) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [RC-MAE (ICLR 2023)](https://arxiv.org/abs/2210.02077) / [CODE](https://github.com/youngwanLEE/rc-mae)|
+| 9   | 2023.05.22| _Wongi Park_    | [Youtube](https://youtu.be/k7oX2m0T7OU) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [iTPN (CVPR 2023)](https://arxiv.org/pdf/2211.12735.pdf) / [CODE](https://github.com/sunsmarterjie/iTPN)|
 
 ## Table of Contents
 - [Survey and Analysis](Survey-and-Analysis)
@@ -39,6 +40,7 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ Analysis ]** How Useful is Self-Supervised Pretraining for Visual Tasks? **(CVPR 2020)** [[Paper](https://arxiv.org/abs/2003.14323)] [[CODE](https://github.com/princeton-vl/selfstudy-render)]
 - **[ Analysis ]** How Well Do Self-Supervised Models Transfer? **(CVPR 2021)** [[Paper](https://arxiv.org/abs/2011.13377)]
 - **[ Analysis ]** Revealing the Dark Secrets of Masked Image Modeling **(CVPR 2023)** [[Paper](https://arxiv.org/pdf/2205.13543.pdf)]
+- **[ Analysis ]** What do Self-Supervised Vision Transformers Learn? **(ICLR 2023)** [[Paper](https://arxiv.org/pdf/2305.00729.pdf)]
 
 ### Contrastive & Distillation Learninig
 - **[ TraS ]** Transitive Invariance for Self-supervised Visual Representation Learning. **(ICCV 2017)** [[Paper](https://arxiv.org/pdf/1708.02901.pdf)]
