@@ -21,6 +21,7 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 | 7   | 2023.05.01| _Haemun Kim_    | [Youtube](https://youtu.be/7a6ZFyQhuZs) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [UPL (CVPR 2022)](https://arxiv.org/abs/2203.03884) / [CODE](https://haochen-wang409.github.io/U2PL/)|
 | 8   | 2023.05.08| _Dongryeol Lee_    | [Youtube](https://youtu.be/h8ApVVcLJW8) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [RC-MAE (ICLR 2023)](https://arxiv.org/abs/2210.02077) / [CODE](https://github.com/youngwanLEE/rc-mae)|
 | 9   | 2023.05.22| _Wongi Park_    | [Youtube](https://youtu.be/k7oX2m0T7OU) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [iTPN (CVPR 2023)](https://arxiv.org/pdf/2211.12735.pdf) / [CODE](https://github.com/sunsmarterjie/iTPN)|
+| 10  | 2023.05.29| _Jaehyeong Chun_    | [Youtube](https://youtu.be/eSlWQin30xY) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [iBOT (ICLR 2022)](https://arxiv.org/abs/2111.07832) / [CODE]([https://github.com/bytedance/ibot]) |
 
 ## Table of Contents
 - [Survey and Analysis](Survey-and-Analysis)
