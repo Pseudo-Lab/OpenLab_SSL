@@ -42,8 +42,10 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ Analysis ]** A critical analysis of self-supervision, or what we can learn from a single image **(ICLR 2020)** [[Paper](https://openreview.net/forum?id=B1esx6EYvr)]
 - **[ Analysis ]** How Useful is Self-Supervised Pretraining for Visual Tasks? **(CVPR 2020)** [[Paper](https://arxiv.org/abs/2003.14323)] [[CODE](https://github.com/princeton-vl/selfstudy-render)]
 - **[ Analysis ]** How Well Do Self-Supervised Models Transfer? **(CVPR 2021)** [[Paper](https://arxiv.org/abs/2011.13377)]
+- - **[ Analysis ]** Understanding Dimensional Collapse in Contrastive Self-supervised Learning **(ICLR 2022)** [[Paper](https://arxiv.org/pdf/2110.09348.pdf)]
 - **[ Analysis ]** Revealing the Dark Secrets of Masked Image Modeling **(CVPR 2023)** [[Paper](https://arxiv.org/pdf/2205.13543.pdf)]
 - **[ Analysis ]** What do Self-Supervised Vision Transformers Learn? **(ICLR 2023)** [[Paper](https://arxiv.org/pdf/2305.00729.pdf)]
+
 
 ### Contrastive & Distillation Learninig
 - **[ TraS ]** Transitive Invariance for Self-supervised Visual Representation Learning. **(ICCV 2017)** [[Paper](https://arxiv.org/pdf/1708.02901.pdf)]
@@ -109,7 +111,7 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ Jigsaw Cluster ]** Jigsaw Clustering for Unsupervised Visual Representation Learning **(CVPR 2021)** [[Paper](https://arxiv.org/abs/2104.00323)] [[CODE](https://github.com/dvlab-research/JigsawClustering)]
 
 ### Blog and Resource
-
+- **[Self-supervised learning: The dark matter of intelligence](https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/)**  **(FAIR2022)**
 
 ### Dataset
 - [ImageNet1K](https://www.image-net.org/challenges/LSVRC/index.php)
