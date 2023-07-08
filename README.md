@@ -66,6 +66,7 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ DINO ]** Emerging Properties in Self-Supervised Vision Transformers **(ICCV 2021)** [[Paper](https://arxiv.org/abs/2104.14294)] [[CODE](https://github.com/facebookresearch/dino)]
 - **[ Barlow Twins ]** Barlow Twins: Self-Supervised Learning via Redundancy Reduction **(ICML 2021)** [[Paper](https://arxiv.org/abs/2103.03230)] [[CODE](https://github.com/facebookresearch/barlowtwins)]
 - **[ VICReg ]** VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning **(ICLR 2022)** [[Paper](https://arxiv.org/abs/2105.04906)] [[CODE](https://github.com/facebookresearch/vicreg)]
+- - **[ E-SSL ]** E-SSL: Equivariant Contrastive Learning **(ICLR 2022)** [[Paper](https://openreview.net/pdf?id=gKLAAfiytI)] [[CODE](https://github.com/rdangovs/essl)]
 - **[ TriBYOL ]** TriBYOL: Triplet BYOL for Self-Supervised Representation Learning **(ICASSP 2022)** [[Paper](https://arxiv.org/abs/2206.03012)]
 - **[ DINOv2 ]** DINOv2: Learning Robust Visual Features without Supervision **(ArXiv 2023)** [[Paper](https://arxiv.org/abs/2304.07193)] [[CODE](https://github.com/facebookresearch/dinov2)]
 
