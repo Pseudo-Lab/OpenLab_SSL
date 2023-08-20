@@ -20,6 +20,13 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 | 6   | 2023.04.24| _Jaehyeong Chun_    | [Youtube](https://youtu.be/cDqLLhwzbzI) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [DINO (ICCV 2021)](https://arxiv.org/abs/2104.14294) / [CODE](https://github.com/facebookresearch/dino)|
 | 7   | 2023.05.01| _Haemun Kim_    | [Youtube](https://youtu.be/7a6ZFyQhuZs) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [UPL (CVPR 2022)](https://arxiv.org/abs/2203.03884) / [CODE](https://haochen-wang409.github.io/U2PL/)|
 | 8   | 2023.05.08| _Dongryeol Lee_    | [Youtube](https://youtu.be/h8ApVVcLJW8) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [RC-MAE (ICLR 2023)](https://arxiv.org/abs/2210.02077) / [CODE](https://github.com/youngwanLEE/rc-mae)|
+| 9   | 2023.05.22| _Wongi Park_    | [Youtube](https://youtu.be/k7oX2m0T7OU) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [iTPN (CVPR 2023)](https://arxiv.org/pdf/2211.12735.pdf) / [CODE](https://github.com/sunsmarterjie/iTPN)|
+| 10  | 2023.05.29| _Jaehyeong Chun_    | [Youtube](https://youtu.be/eSlWQin30xY) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [iBOT (ICLR 2022)](https://arxiv.org/abs/2111.07832) /  [CODE](https://github.com/bytedance/ibot) |
+| 11   | 2023.06.05| _Haemun Kim_    | [Youtube](https://youtu.be/oPiz_gGTJWM) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [ARSL (CVPR 2023)](https://arxiv.org/abs/2303.14960) / [CODE](https://github.com/PaddlePaddle/PaddleDetection)|
+| 12   | 2023.06.12| _Dongryeol Lee_    | [Youtube](https://youtu.be/aymt6MlpDe4) / [Resource](https://www.notion.so/chanrankim/SSL-for-Image-Representation-0574c45b4674428b94149c41cd724f30?pvs=4) | [(NIPS 2022)](https://arxiv.org/abs/2305.15614)|
+| 13   | 2023.08.28| _Wongi Park_    | OT | OT |
+| 14   | 2023.09.04| _Wongi Park_    | [Youtube](----) / [Resource](----) | [CDS (ICCV 2021)](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_CDS_Cross-Domain_Self-Supervised_Pre-Training_ICCV_2021_paper.pdf) / [CODE](https://github.com/VisionLearningGroup/CDS)|
+
 
 ## Table of Contents
 - [Survey and Analysis](Survey-and-Analysis)
@@ -27,6 +34,8 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - [Masked Auto Encoder](Masked-Auto-Encoder)
 - [Image Transformation](Image-Transformation)
 - [Clustering](Clustering)
+- [Domain Generalization](Domain-Generalization)
+- [Few-shot learning](Few-&shot-learning)
 - [Dataset](Dataset)
 - [Blog and Resource](Blog-and-Resource)
 
@@ -38,7 +47,10 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ Analysis ]** A critical analysis of self-supervision, or what we can learn from a single image **(ICLR 2020)** [[Paper](https://openreview.net/forum?id=B1esx6EYvr)]
 - **[ Analysis ]** How Useful is Self-Supervised Pretraining for Visual Tasks? **(CVPR 2020)** [[Paper](https://arxiv.org/abs/2003.14323)] [[CODE](https://github.com/princeton-vl/selfstudy-render)]
 - **[ Analysis ]** How Well Do Self-Supervised Models Transfer? **(CVPR 2021)** [[Paper](https://arxiv.org/abs/2011.13377)]
+- **[ Analysis ]** Understanding Dimensional Collapse in Contrastive Self-supervised Learning **(ICLR 2022)** [[Paper](https://arxiv.org/pdf/2110.09348.pdf)]
 - **[ Analysis ]** Revealing the Dark Secrets of Masked Image Modeling **(CVPR 2023)** [[Paper](https://arxiv.org/pdf/2205.13543.pdf)]
+- **[ Analysis ]** What do Self-Supervised Vision Transformers Learn? **(ICLR 2023)** [[Paper](https://arxiv.org/pdf/2305.00729.pdf)]
+
 
 ### Contrastive & Distillation Learninig
 - **[ TraS ]** Transitive Invariance for Self-supervised Visual Representation Learning. **(ICCV 2017)** [[Paper](https://arxiv.org/pdf/1708.02901.pdf)]
@@ -59,8 +71,15 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ DINO ]** Emerging Properties in Self-Supervised Vision Transformers **(ICCV 2021)** [[Paper](https://arxiv.org/abs/2104.14294)] [[CODE](https://github.com/facebookresearch/dino)]
 - **[ Barlow Twins ]** Barlow Twins: Self-Supervised Learning via Redundancy Reduction **(ICML 2021)** [[Paper](https://arxiv.org/abs/2103.03230)] [[CODE](https://github.com/facebookresearch/barlowtwins)]
 - **[ VICReg ]** VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning **(ICLR 2022)** [[Paper](https://arxiv.org/abs/2105.04906)] [[CODE](https://github.com/facebookresearch/vicreg)]
+- **[ E-SSL ]** E-SSL: Equivariant Contrastive Learning **(ICLR 2022)** [[Paper](https://openreview.net/pdf?id=gKLAAfiytI)] [[CODE](https://github.com/rdangovs/essl)]
 - **[ TriBYOL ]** TriBYOL: Triplet BYOL for Self-Supervised Representation Learning **(ICASSP 2022)** [[Paper](https://arxiv.org/abs/2206.03012)]
 - **[ DINOv2 ]** DINOv2: Learning Robust Visual Features without Supervision **(ArXiv 2023)** [[Paper](https://arxiv.org/abs/2304.07193)] [[CODE](https://github.com/facebookresearch/dinov2)]
+- **[ AVT ]** AVT: Unsupervised Learning of Transformation Equivariant Representations by Autoencoding Variational Transformations **(CVPR 2018)** [[Paper](arxiv.org/abs/1903.10863)] [[CODE](https://github.com/maple-research-lab/AVT-pytorch)]
+- **[ MoCHI ]** MoCHI: Hard Negative Mixing for Contrastive Learning **(NIPS 2020)** [[Paper](https://arxiv.org/pdf/2010.01028.pdf)] [[CODE](https://europe.naverlabs.com/mochi)]
+- **[ SMDistill ]** Unsupervised Representation Transfer for Small Networks: I Believe I Can Distill On-the-Fly **(NIPS 2021)** [[Paper](https://proceedings.neurips.cc/paper/2021/file/cecd845e3577efdaaf24eea03af4c033-Paper.pdf)]
+- **[ BURN ]** BURN: Unsupervised Representation Learning for Binary Networks by Joint Classifier Training  **(CVPR 2022)** [[Paper](https://arxiv.org/abs/2110.08851)] [[CODE](https://github.com/naver-ai/burn)]
+- **[ DenseCL ]** Dense Contrastive Learning for Self-Supervised Visual Pre-Training **(CVPR 2021)** [[Paper](https://arxiv.org/abs/2011.09157)] [[CODE](https://github.com/WXinlong/DenseCL)]
+- **[ RINCE ]** Robust Contrastive Learning against Noisy Views **(CVPR 2021)** [[Paper](https://arxiv.org/abs/2201.04309)] [[CODE](https://github.com/chingyaoc/RINCE)]
 
 
 ### Masked Auto Encoder
@@ -91,8 +110,17 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ Damage JisawNet ]** Learning Image Representations by Completing Damaged Jigsaw Puzzles.  **(WACV 2018)** [[Paper](https://arxiv.org/pdf/1802.01880.pdf)] [[CODE](https://github.com/MehdiNoroozi/JigsawPuzzleSolver)]
 - **[ Rotation ]** Unsupervised Representation Learning by Predicting Image Rotations.   **(ICLR 2018)** [[Paper](https://openreview.net/forum?id=S1v4N2l0-)] [[CODE](https://github.com/gidariss/FeatureLearningRotNet)]
 
+### Domain Generalization
+- **[ CDS ]** CDS: Cross-Domain Self-supervised Pre-training **(ICCV 2021)** [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_CDS_Cross-Domain_Self-Supervised_Pre-Training_ICCV_2021_paper.pdf)] [[CODE](https://github.com/VisionLearningGroup/CDS)]
+- **[ Deja Vu ]** Deja Vu: Continual Model Generalization for Unseen Domains **(ICLR 2023)** [[Paper](https://arxiv.org/pdf/2301.10418.pdf)] [[CODE](https://github.com/SonyResearch/RaTP)]
+<!-- - **[ Deja Vu ]** Deja Vu: Continual Model Generalization for Unseen Domains **(ICLR 2023)** [[Paper](https://arxiv.org/pdf/2301.10418.pdf)] [[CODE](https://github.com/SonyResearch/RaTP)] -->
+
+### Few-shot learning
+- **[ Few-shot ]** When Does Self-supervision Improve Few-shot Learning? **(ECCV 2020)** [[Paper](https://arxiv.org/abs/1910.03560)] [[CODE](https://github.com/cvl-umass/fsl-ssl)]
+- **[ Pareto ]** Pareto Self-Supervised Training for Few-Shot Learning **(CVPR 2021)** [[Paper](https://arxiv.org/pdf/2104.07841v2.pdf)]
+
 ### Clustering
-- **[ JULE ]** Joint Unsupervised Learning of Deep Representations and Image Clusters. **(CVPR 2016)** [[Paper](https://arxiv.org/pdf/1604.03628.pdf)] [[CODE](https://github.com/jwyang/JULE.torch)]
+- **[ JULE ]** Joint Unsupervised Learning of Deep Representations and Image Clusters. **(CVPR 2016)** [[Paper](https://arxiv.org/pdf/1604.03628.pdf)] [[CODE](https://github.com/VisionLearningGroup/CDS)]
 - **[ Deep Cluster ]** Deep Clustering for Unsupervised Learning of Visual Features **(ECCV 2018)** [[Paper](https://research.fb.com/wp-content/uploads/2018/09/Deep-Clustering-for-Unsupervised-Learning-of-Visual-Features.pdf)] [[CODE](https://github.com/facebookresearch/deepcluster)]
 - **[ Self Cluster ]** Self-labelling via simultaneous clustering and representation learning **(ICLR 2020)** [[Paper](https://openreview.net/pdf?id=Hyx-jyBFPr)] [[CODE](https://github.com/yukimasano/self-label)]
 - **[ ClusterFit ]** Improving Generalization of Visual Representations **(CVPR 2020)** [[Paper](https://arxiv.org/abs/1912.03330)]
@@ -104,7 +132,7 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ Jigsaw Cluster ]** Jigsaw Clustering for Unsupervised Visual Representation Learning **(CVPR 2021)** [[Paper](https://arxiv.org/abs/2104.00323)] [[CODE](https://github.com/dvlab-research/JigsawClustering)]
 
 ### Blog and Resource
-
+- **[Self-supervised learning: The dark matter of intelligence](https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/)**  **(FAIR2022)**
 
 ### Dataset
 - [ImageNet1K](https://www.image-net.org/challenges/LSVRC/index.php)
