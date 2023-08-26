@@ -29,15 +29,16 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 
 
 ## Table of Contents
-- [Survey and Analysis](Survey-and-Analysis)
-- [Contrastive & Distillation Learninig](Contrastive-&-Distillation-Learninig)
-- [Masked Auto Encoder](Masked-Auto-Encoder)
-- [Image Transformation](Image-Transformation)
-- [Clustering](Clustering)
-- [Domain Generalization](Domain-Generalization)
-- [Few-shot learning](Few-&shot-learning)
-- [Dataset](Dataset)
-- [Blog and Resource](Blog-and-Resource)
+- [Survey and Analysis](#Survey-and-Analysis)
+- [Contrastive & Distillation Learninig](#Contrastive-&-Distillation-Learninig)
+- [Masked Auto Encoder](#Masked-Auto-Encoder)
+- [Image Transformation](#Image-Transformation)
+- [Vision Language Model](#Vision-Language-Model)
+- [Clustering](#Clustering)
+- [Domain Generalization](#Domain-Generalization)
+- [Few-shot learning](#Few-&shot-learning)
+- [Dataset](#Dataset)
+- [Blog and Resource](#Blog-and-Resource)
 
 
 ### Survey and Analysis
@@ -80,6 +81,7 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ BURN ]** BURN: Unsupervised Representation Learning for Binary Networks by Joint Classifier Training  **(CVPR 2022)** [[Paper](https://arxiv.org/abs/2110.08851)] [[CODE](https://github.com/naver-ai/burn)]
 - **[ DenseCL ]** Dense Contrastive Learning for Self-Supervised Visual Pre-Training **(CVPR 2021)** [[Paper](https://arxiv.org/abs/2011.09157)] [[CODE](https://github.com/WXinlong/DenseCL)]
 - **[ RINCE ]** Robust Contrastive Learning against Noisy Views **(CVPR 2021)** [[Paper](https://arxiv.org/abs/2201.04309)] [[CODE](https://github.com/chingyaoc/RINCE)]
+- **[ SEED ]** SEED: Self-supervised Distillation For Visual Representation **(ICLR 2021)** [[Paper](https://arxiv.org/pdf/2101.04731.pdf)] [[CODE](https://github.com/jacobswan1/SEED)]
 
 
 ### Masked Auto Encoder
@@ -98,6 +100,9 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ DropMAE ]** DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks **(CVPR 2023)** [[Paper](https://arxiv.org/abs/2304.00571)] [[CODE](https://github.com/jimmy-dq/DropMAE)]
 - **[ iTPN ]** Integrally Pre-Trained Transformer Pyramid Networks. **(CVPR 2023)** [[Paper](https://arxiv.org/pdf/2211.12735.pdf)] [[CODE](https://github.com/sunsmarterjie/iTPN)]
 - **[ ConMIM ]** Masked Image Modeling with Denoising Contrast. **(ICLR 2023)** [[Paper](https://arxiv.org/abs/2205.09616)] [[CODE](https://github.com/TencentARC/ConMIM)]
+- **[ MultiMAE ]** MultiMAE: Multi-modal Multi-task Masked Autoencoders. **(ICLR 2023)** [[Paper](https://multimae.epfl.ch/)] [[CODE](https://multimae.epfl.ch/)]
+- **[ LCO ]** Learning to cluster in order to transfer across domains and tasks **(ICLR 2018)** [[Paper](https://arxiv.org/abs/1711.10125)] [[CODE](https://github.com/GT-RIPL/L2C)]
+- **[ TinyMIM ]** TinyMIM: An Empirical Study of Distilling MIM Pre-trained Models. **(CVPR2023)** [[Paper](https://arxiv.org/abs/2301.01296)] [[CODE](https://github.com/OliverRensu/TinyMIM)]
 
 
 ### Image Transformation
@@ -110,10 +115,21 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - **[ Damage JisawNet ]** Learning Image Representations by Completing Damaged Jigsaw Puzzles.  **(WACV 2018)** [[Paper](https://arxiv.org/pdf/1802.01880.pdf)] [[CODE](https://github.com/MehdiNoroozi/JigsawPuzzleSolver)]
 - **[ Rotation ]** Unsupervised Representation Learning by Predicting Image Rotations.   **(ICLR 2018)** [[Paper](https://openreview.net/forum?id=S1v4N2l0-)] [[CODE](https://github.com/gidariss/FeatureLearningRotNet)]
 
+### Vision Language Model
+- **[ SINC ]** SINC: Self-Supervised In-Context Learning for Vision-Language Tasks **(ICCV 2023)** [[Paper](https://arxiv.org/abs/2307.07742v2)]
+
+
 ### Domain Generalization
 - **[ CDS ]** CDS: Cross-Domain Self-supervised Pre-training **(ICCV 2021)** [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_CDS_Cross-Domain_Self-Supervised_Pre-Training_ICCV_2021_paper.pdf)] [[CODE](https://github.com/VisionLearningGroup/CDS)]
 - **[ Deja Vu ]** Deja Vu: Continual Model Generalization for Unseen Domains **(ICLR 2023)** [[Paper](https://arxiv.org/pdf/2301.10418.pdf)] [[CODE](https://github.com/SonyResearch/RaTP)]
 <!-- - **[ Deja Vu ]** Deja Vu: Continual Model Generalization for Unseen Domains **(ICLR 2023)** [[Paper](https://arxiv.org/pdf/2301.10418.pdf)] [[CODE](https://github.com/SonyResearch/RaTP)] -->
+
+### Multi-task learning
+- **[ MuST ]** Multi-Task Self-Training for Learning General Representations **(ICCV 2021)** [[Paper](https://arxiv.org/abs/2108.11353)]
+- **[ SMART ]** SMART: Self-supervised Multi-task pretrAining with contRol Transformers **(ICLR 2023)** [[Paper](https://arxiv.org/pdf/2301.09816.pdf)] [[CODE](https://github.com/microsoft/smart)]
+<!-- - **[ SMART ]** SMART: Self-supervised Multi-task pretrAining with contRol Transformers **(ICLR 2023)** [[Paper](https://arxiv.org/pdf/2301.09816.pdf)] [[CODE](https://github.com/microsoft/smart)] -->
+
+
 
 ### Few-shot learning
 - **[ Few-shot ]** When Does Self-supervision Improve Few-shot Learning? **(ECCV 2020)** [[Paper](https://arxiv.org/abs/1910.03560)] [[CODE](https://github.com/cvl-umass/fsl-ssl)]
