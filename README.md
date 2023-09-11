@@ -36,6 +36,7 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 - [Vision Language Model](#Vision-Language-Model)
 - [Clustering](#Clustering)
 - [Domain Generalization](#Domain-Generalization)
+- [Anomaly Detection](#Anomaly-Detection)
 - [Few-shot learning](#Few-&shot-learning)
 - [Dataset](#Dataset)
 - [Blog and Resource](#Blog-and-Resource)
@@ -118,11 +119,16 @@ Every Monday at 10pm, [PseudoLab Discord](https://discord.gg/sDgnqYWA3G) Room YL
 ### Vision Language Model
 - **[ SINC ]** SINC: Self-Supervised In-Context Learning for Vision-Language Tasks **(ICCV 2023)** [[Paper](https://arxiv.org/abs/2307.07742v2)]
 
-
 ### Domain Generalization
 - **[ CDS ]** CDS: Cross-Domain Self-supervised Pre-training **(ICCV 2021)** [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_CDS_Cross-Domain_Self-Supervised_Pre-Training_ICCV_2021_paper.pdf)] [[CODE](https://github.com/VisionLearningGroup/CDS)]
 - **[ Deja Vu ]** Deja Vu: Continual Model Generalization for Unseen Domains **(ICLR 2023)** [[Paper](https://arxiv.org/pdf/2301.10418.pdf)] [[CODE](https://github.com/SonyResearch/RaTP)]
+- **[ FlexPredict ]** Predicting masked tokens in stochastic locations improves masked image modeling **(ArXiv 2023)** [[Paper](https://arxiv.org/pdf/2308.00566.pdf)]
 <!-- - **[ Deja Vu ]** Deja Vu: Continual Model Generalization for Unseen Domains **(ICLR 2023)** [[Paper](https://arxiv.org/pdf/2301.10418.pdf)] [[CODE](https://github.com/SonyResearch/RaTP)] -->
+
+### Anomaly Detection
+- **[ CutPaste ]** CutPaste: Self-Supervised Learning for Anomaly Detection and Localization **(CVPR 2021)** [[Paper](https://arxiv.org/abs/2104.04015)] [[CODE](https://github.com/LilitYolyan/CutPaste)]
+- **[ SPot ]** SPot-the-Difference Self-Supervised Pre-training for Anomaly Detection and Segmentation **(ECCV 2022)** [[Paper](https://arxiv.org/abs/2207.14315)] [[CODE](https://github.com/amazon-science/spot-diff)]
+
 
 ### Multi-task learning
 - **[ MuST ]** Multi-Task Self-Training for Learning General Representations **(ICCV 2021)** [[Paper](https://arxiv.org/abs/2108.11353)]
